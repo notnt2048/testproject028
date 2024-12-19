@@ -10,7 +10,7 @@ document.addEventListener("keydown", (event) => {
 });
 
 // Generate an array of image paths dynamically
-const images = Array.from({ length: 399 }, (_, i) => `images/images (${i + 1}).png`);
+const images = Array.from({ length: 1015 }, (_, i) => `images/images (${i + 1}).png`);
 
 let currentIndex = 0; // Tracks the current image index
 
